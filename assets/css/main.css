@@ -129,7 +129,7 @@ a {
     }
 
     #parents .carousel-inner {
-        height: 250px !important;
+        height: 275px !important;
     }
 
     .parents {
@@ -148,6 +148,28 @@ a {
         text-align: start !important;
         font-size: 29px !important;
     }
+
+    #parents .media {
+        text-align: center !important;
+        font-family: arial !important;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+        /* border: 1px solid rgb(136, 131, 131) !important; */
+        display: block !important;
+    }
+
+    /* #parents .media img { */
+
+        /* border-top-left-radius: calc(.25rem - 1px) !important;
+        border-top-right-radius: calc(.25rem - 1px) !important; */
+        /* border-radius: 0% !important; */
+        /* width: 100% !important; */
+
+    /* } */
+
+    /* #parents .media-body {
+        flex: 1 1 auto !important;
+        padding: 1.25rem !important;
+    } */
 }
 
 .ftco-intro h2 {
