@@ -136,6 +136,9 @@ a {
         .brochure{
             margin-bottom: 25px;
         }
+        h2{text-align: start !important;
+            font-size: 29px !important;
+        }
 }
 .ftco-intro h2 {
     color: #fff;
