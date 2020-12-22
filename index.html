@@ -50,227 +50,42 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        /* .containerw { */
-        /* outline: 1px solid #eed; */
-        /* font-size: 42pt; */
-        /* padding: 9.5vh 0vw; */
-        /* background-size: cover;
-            overflow: hidden; */
-        /* } */
-
-        /* .block {
-            background: #223; */
-        /* color: #eed;
-            line-height: 25vh;
-            text-align: right; */
-        /* padding: 0 42pt; */
-        /* position: relative; */
-        /* }
-
-        span {
-            background: #eed;
-            color: #223;
-            line-height: 25vh;
-            text-align: left;
-            padding: 0 42pt;
-            display: block;
-            width: 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            box-sizing: border-box;
-        } */
-
-
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            /* max-width: 300px; */
-
-            text-align: center;
-            font-family: arial;
-
+    <style style="text/css">
+        div.slide-up {
+            height: 200px;
+            overflow: hidden;
         }
 
-        .hidden {
-            display: none;
+        div.slide-up .newsList {
+            animation: 9s slide-up infinite;
+            margin-top: 0%;
         }
 
-        .content {
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            height: 100vh;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            margin: 0;
-            max-width: 100%;
-            width: 100vw;
-        }
+        @keyframes slide-up {
+            from {
+                margin-top: 100%;
+                height: 300%;
+            }
 
-        a {
-            text-decoration: none !important;
-        }
-
-        .button-next {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            /* left: 0; */
-            z-index: 15;
-            display: -ms-flexbox;
-            /* display: flex; */
-            align-items: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            padding-left: 0;
-            margin-right: 7%;
-            margin-left: 15%;
-            list-style: none;
-            top: 45%;
-
-        }
-
-        .header {
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            height: 100vh;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            /* overflow: hidden; */
-            position: relative;
-            width: 100vw;
-        }
-
-        .ftco-intro {
-            margin-top: 5em;
-            padding: 8em 0;
-            width: 100%;
-            height: 100%;
-            position: inherit;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: top center;
-            position: relative;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        @media (max-width: 1199.98px) {
-            .ftco-intro {
-                background-position: center center !important;
+            to {
+                margin-top: 0%;
+                height: 100%;
             }
         }
 
-        .ftco-intro h2 {
-            color: #fff;
-            font-size: 36px;
-            font-weight: 600;
-        }
-
-        .ftco-intro .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            content: '';
-            opacity: .2;
-            background: #000000;
-        }
-
-
-        .button-next li {
-            border-radius: 50%;
-            box-sizing: content-box;
-            -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
-            width: 14px;
-            height: 14px;
-            margin-right: 3px;
-            margin-left: 3px;
-            text-indent: -999px;
-            cursor: pointer;
-            background-color: rgb(29, 22, 22);
-            background-clip: padding-box;
-            border-top: 8px solid transparent;
-            border-bottom: 8px solid transparent;
-            /* opacity: .5; */
-            transition: opacity .6s ease;
-        }
-
-        .carousel-indicators {
-            top: 120%;
-            /* color: red; */
-            /* background-color: red !important; */
-        }
-
-        .carousel-indicators li {
-            /* color: red; */
-            background-color: red;
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-        }
-
-
-
-
-
-
-
-
-
-        .hero-wrap {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            content: '';
-            opacity: .3;
-            background: #f1453d;
-        }
-
-        .carousel-caption {
-            top: 50%;
-        }
+        /* .img-about {
+            height: 300px !important;
+            width: 500px !important;
+        } */
     </style>
-
 </head>
 
 <body>
 
-    <!--====== PRELOADER PART START ======-->
-
-    <!-- <div class="preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!--====== PRELOADER PART ENDS ======-->
 
     <!--====== NAVBAR PART START ======-->
 
@@ -281,7 +96,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand pl-4" href="#">
-                                <img src="assets/images/logo-1.png" style="height:70px;" alt="Logo">
+                                <img src="assets/images/logo-1.png" style="height:4.375em;" alt="Logo">
                             </a>
 
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -298,7 +113,7 @@
                                         <a class="" href="index.html">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="" href="about.html">ABOUT</a>
+                                        <a class="" href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="" href="education.html">Education</a>
@@ -383,26 +198,116 @@
 
     <!--====== NAVBAR PART ENDS ======-->
 
-    <!--====== SAIDEBAR PART START ======-->
+    <section id="about" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-12">
+                    <div class="site-section">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-12">
+                                    <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration=".5s"
+                                        data-wow-delay="0.2s">
+                                        <img src="assets/images/header-5.jpg" class="img-about" alt="Girl in a jacket"
+                                            class="float-right justify-content-end">
+                                        <h3 class="title">About Us</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-lg-7 text-center about-img">
+                                    <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s"
+                                        data-wow-delay="0s">
+                                        <img src="https://e-edport.com/assets/images/vision.png" height="120px"
+                                            alt="Girl in a jacket" class="float-right justify-content-end">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 ml-auto order-lg-1 wow fadeInRight" data-wow-duration=".8s"
+                                    data-wow-delay="0s">
+                                    <h3 class="mb-4 section-heading"><strong>Our Vision</strong></h3>
+                                    <p class="mb-1" style="line-height:1.7">
+                                        Our Vision is to integrate information with innovation to emancipate the
+                                        education sector. We aspire
+                                    </p>
+                                    <a href="about.html" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-lg-5 ml-auto wow fadeInLeft" data-wow-duration=".8s"
+                                    data-wow-delay="0.1s">
+                                    <h3 class="mb-4 section-heading"><strong>Our Mission</strong></h3>
+                                    <p class="mb-1" style="line-height:1.7">e-EdPort is founded with a Mission to
+                                        collaborating technology and skills to promote all round development of
+                                        .</p>
+                                    <a href="about.html" class="btn btn-primary">Read more</a>
+                                </div>
+                                <div class="col-lg-7 text-center about-img">
+                                    <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s"
+                                        data-wow-delay="0.1s">
+                                        <img src="https://e-edport.com/assets/images/mission.png" height="120px"
+                                            alt="Girl in a jacket">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="card px-0">
+                        <div class="card-body px-0">
+                            <h3 class="title text-center">News & Update</h3>
+                            <hr>
+                            <div class=" slide-up">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card px-0 mt-5">
+                        <div class="card-body px-0">
+                            <h3 class="title text-center">Upcoming Events</h3>
+                            <hr>
+                            <div class=" slide-up">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of
+                                            November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of
+                                            November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                    <li class="list-group-item newsList bg-light"> <span
+                                            class="text-white bg-secondary py-2 px-1">3rd of
+                                            November
+                                            2020</span>
+                                        Cras justo odio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
 
-    <div class="overlay-right"></div>
-
-    <!--====== SAIDEBAR PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
-
-    <!-- 
-    <section id="about" class="about-area-2">
-        <div class="site-section">
-            <div class="container">
-                <video src=""></video>
+                </div>
             </div>
+
         </div>
-
-
-    </section> -->
-
+    </section>
 
 
     <!--====== Deliverables PART START ======-->
