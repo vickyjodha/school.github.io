@@ -116,7 +116,11 @@ a {
         background-position: center center !important;
     }
 }
-
+@media (max-width:1000px){
+    #home{
+        margin-top: 7em;
+    }
+}
 .ftco-intro h2 {
     color: #fff;
     font-size: 36px;
