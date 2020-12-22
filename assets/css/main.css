@@ -116,10 +116,26 @@ a {
         background-position: center center !important;
     }
 }
-@media (max-width:1000px){
-    #home{
+@media (max-width:1000px) {
+    #home {
         margin-top: 7em;
     }
+}
+@media (max-width:767.99px) {
+    .embed-responsive{
+        margin-bottom: 25px !important;
+    }
+    #parents .carousel-inner {
+        height: 250px;
+    }
+    .parents{
+        margin-bottom: 25px;
+    }
+    .carousel-indicators {
+        top: 100%;}
+        .brochure{
+            margin-bottom: 25px;
+        }
 }
 .ftco-intro h2 {
     color: #fff;
