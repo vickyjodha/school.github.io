@@ -119,15 +119,20 @@ a {
 
 @media (max-width:1000px) {
     #home {
-        margin-top: 7em;
+        margin-top: 5.9em;
     }
 }
-
+ /* Mobile */
 @media (max-width:767.99px) {
     .embed-responsive {
         margin-bottom: 25px !important;
     }
-
+    .img-about{
+margin-top: 25px !important;
+    }
+.navbar-brand img {
+    height: 10vh !important;
+}
     #parents .carousel-inner {
         height: 275px !important;
     }
@@ -305,7 +310,9 @@ h3 {
          height: 100%;
      }
  }
-
+.navbar-brand img{
+    height: 14vh;
+}
  .img-about {
      margin-top: -10%;
  }
