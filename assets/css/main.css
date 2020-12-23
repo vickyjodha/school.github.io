@@ -111,6 +111,17 @@ a {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.border-stye {
+    padding-bottom: 2px;
+    width: 100%;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+.message-img {
+    border: 3px solid #03723b;
+    /* box-shadow: 2px 8px 10px #ccc; */
+}
+
 @media (max-width: 1199.98px) {
     .ftco-intro {
         background-position: center center !important;
@@ -119,20 +130,28 @@ a {
 
 @media (max-width:1000px) {
     #home {
-        margin-top: 5.9em;
+        margin-top: 3.9em;
     }
 }
- /* Mobile */
+
+/* Mobile */
 @media (max-width:767.99px) {
     .embed-responsive {
         margin-bottom: 25px !important;
     }
-    .img-about{
-margin-top: 25px !important;
+
+    .mission-img {
+        height: 200px !important;
     }
-.navbar-brand img {
-    height: 10vh !important;
-}
+
+    .img-about {
+        margin-top: 25px !important;
+    }
+
+    .navbar-brand img {
+        height: 5vh !important;
+    }
+
     #parents .carousel-inner {
         height: 275px !important;
     }
@@ -153,9 +172,11 @@ margin-top: 25px !important;
         text-align: start !important;
         font-size: 29px !important;
     }
-h3 {
-    font-size: 18px !important;
-}
+
+    h3 {
+        font-size: 18px !important;
+    }
+
     #parents .media {
         text-align: center !important;
         font-family: arial !important;
@@ -166,10 +187,10 @@ h3 {
 
     /* #parents .media img { */
 
-        /* border-top-left-radius: calc(.25rem - 1px) !important;
+    /* border-top-left-radius: calc(.25rem - 1px) !important;
         border-top-right-radius: calc(.25rem - 1px) !important; */
-        /* border-radius: 0% !important; */
-        /* width: 100% !important; */
+    /* border-radius: 0% !important; */
+    /* width: 100% !important; */
 
     /* } */
 
@@ -267,6 +288,7 @@ h3 {
     box-shadow: inset 0 0 0 4px hsl(243, 80%, 62%);
     color: hsl(243, 80%, 62%);
 }
+
 .snapLeftBtn {
     text-align: center;
     padding: 12px 24px;
@@ -290,12 +312,32 @@ h3 {
     transition: transform .25s ease-in;
 }
 
-.navbar-brand img{
-    height: 14vh;
+.navbar-brand img {
+    height: 8vh;
 }
- .img-about {
-     margin-top: -10%;
- }
+
+/* .header-area {
+    margin-bottom: 5.9em;
+} */
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b !important;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .dropdown-menu {
+    background: #161f33;
+    border-color: #fff;
+    padding: 2%;
+    position: static;
+    float: none;
+}
+
+.img-about {
+    margin-top: -10%;
+}
+
 .snapLeftBtn:hover::before {
     transform: translateX(0);
 }
