@@ -24,6 +24,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
+
     <!--====== Line Icons css ======-->
     <link rel="stylesheet" href="assets/css/LineIcons.css">
 
@@ -41,44 +42,26 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            max-width: 300px;
+    <style style="text/css">
 
-            text-align: center;
-            font-family: arial;
-
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        a {
-            text-decoration: none !important;
-        }
     </style>
-
 </head>
 
 <body>
-
-
     <!--====== NAVBAR PART START ======-->
-
     <section class="header-area">
         <div class="navbar-area">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#">
-                                <img src="assets/images/logo-1.png" style="height:70px;" alt="Logo">
+                            <a class="navbar-brand pl-4" href="#">
+                                <img src="assets/images/logo-1.png" style="height:4.375em;" alt="Logo">
                             </a>
-
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -93,7 +76,7 @@
                                         <a class="" href="index.html">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="" href="about.html">ABOUT</a>
+                                        <a class="" href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="" href="education.html">Education</a>
@@ -112,193 +95,141 @@
                                     </li>
                                 </ul>
                             </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                            <!-- <div class="navbar-btn d-none mt-15 d-lg-inline-block">
-                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
-                            </div> -->
-                        </nav> <!-- navbar -->
+
+    </section>
+
+
+
+
+
+    <footer id="footer" class="footer-area bg-light">
+        <hr>
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Company</h6>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <!-- <li><a href="#pricing">Pricing</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Solutions</h6>
+                            <ul>
+                                <li><a href="#">Virtual Classroom App</a></li>
+                                <li><a href="#">Self Learning App</a></li>
+                                <li><a href="#">Institutional Branding</a></li>
+                                <li><a href="#">Smart Teacher Training</a></li>
+                            </ul>
+                        </div> \
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Plan</h6>
+                            <ul>
+                                <li><a href="#basic">Basic</a></li>
+                                <li><a href="#standard">Standard</a></li>
+                                <li><a href="#premium">Premium</a></li>
+                            </ul>
+                        </div> 
+                    </div> -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Help & Support</h6>
+                            <ul>
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="copyright text-center text-lg-left mt-10">
+                            <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372"
+                                    rel="nofollow" href="index.html"> Montbit Technologies.</a></p>
+                        </div> <!--  copyright -->
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-logo text-center mt-10">
+                            <a href="index.html"><img style="height: 100px !important;" src="assets/images/logo-1.png"
+                                    alt="Logo"></a>
+                        </div> <!-- footer logo -->
+                    </div>
+                    <div class="col-lg-5">
+                        <ul class="social text-center text-lg-right mt-10">
+                            <li><a target="_blank"
+                                    href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i
+                                        class="lni-facebook-filled"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i
+                                        class="lni-youtube"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i
+                                        class="lni-instagram-original"></i></a></li>
+                        </ul> <!-- social -->
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
-        </div> <!-- navbar area -->
+        </div>
+    </footer>
 
+    <!--====== FOOTER FOUR PART ENDS ======-->
 
-        <!--====== FOOTER FOUR PART START ======-->
+    <!--====== BACK TOP TOP PART START ======-->
 
-        <footer id="footer" class="footer-area">
-            <div class="footer-widget">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-link">
-                                <h6 class="footer-title">Company</h6>
-                                <ul>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                    <li><a href="#pricing">Pricing</a></li>
-                                </ul>
-                            </div> <!-- footer link -->
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-link">
-                                <h6 class="footer-title">Solutions</h6>
-                                <ul>
-                                    <li><a href="#">Virtual Classroom App</a></li>
-                                    <li><a href="#">Self Learning App</a></li>
-                                    <li><a href="#">Institutional Branding</a></li>
-                                    <li><a href="#">Smart Teacher Training</a></li>
-                                </ul>
-                            </div> <!-- footer link -->
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-link">
-                                <h6 class="footer-title">Plan</h6>
-                                <ul>
-                                    <li><a href="#basic">Basic</a></li>
-                                    <li><a href="#standard">Standard</a></li>
-                                    <li><a href="#premium">Premium</a></li>
-                                </ul>
-                            </div> <!-- footer link -->
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="footer-link">
-                                <h6 class="footer-title">Help & Support</h6>
-                                <ul>
-                                    <li><a href="#">Support Center</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                </ul>
-                            </div> <!-- footer link -->
-                        </div>
-                    </div> <!-- row -->
-                </div> <!-- container -->
-            </div> <!-- footer widget -->
+    <a href="#" class="back-to-top"><i class="lni-chevron-up" style="color:white"></i></a>
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="assets/js/vendor/jquery-1.12.4.min.js"></script> -->
 
-            <div class="footer-copyright">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="copyright text-center text-lg-left mt-10">
-                                <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372"
-                                        rel="nofollow" href="index.html"> Montbit Technologies.</a></p>
-                            </div> <!--  copyright -->
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="footer-logo text-center mt-10">
-                                <a href="index.html"><img style="height: 100px !important;"
-                                        src="assets/images/logo-1.png" alt="Logo"></a>
-                            </div> <!-- footer logo -->
-                        </div>
-                        <div class="col-lg-5">
-                            <ul class="social text-center text-lg-right mt-10">
-                                <li><a target="_blank"
-                                        href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i
-                                            class="lni-facebook-filled"></i></a></li>
-                                <li><a target="_blank"
-                                        href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i
-                                            class="lni-youtube"></i></a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i
-                                            class="lni-instagram-original"></i></a></li>
-                            </ul> <!-- social -->
-                        </div>
-                    </div> <!-- row -->
-                </div> <!-- container -->
-            </div> <!-- footer copyright -->
-        </footer>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 
-        <!--====== FOOTER FOUR PART ENDS ======-->
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
 
-        <!--====== BACK TOP TOP PART START ======-->
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
 
-        <a href="#" class="back-to-top"><i class="lni-chevron-up" style="color:white"></i></a>
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 
-        <!--====== BACK TOP TOP PART ENDS ======-->
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
-        <!--====== PART START ======-->
+    <!--====== Scrolling js ======-->
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
 
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
 
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
 
-        <!--====== PART ENDS ======-->
-
-
-
-
-
-
-
-
-
-
-        <!--====== jquery js ======-->
-        <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- <script src="assets/js/vendor/jquery-1.12.4.min.js"></script> -->
-
-        <!--====== Bootstrap js ======-->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-
-        <!--====== Slick js ======-->
-        <script src="assets/js/slick.min.js"></script>
-
-        <!--====== Isotope js ======-->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-
-        <!--====== Images Loaded js ======-->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-
-        <!--====== Magnific Popup js ======-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-        <!--====== Scrolling js ======-->
-        <script src="assets/js/scrolling-nav.js"></script>
-        <script src="assets/js/jquery.easing.min.js"></script>
-
-        <!--====== Ajax Contact js ======-->
-        <script src="assets/js/ajax-contact.js"></script>
-
-        <!--====== wow js ======-->
-        <script src="assets/js/wow.min.js"></script>
-
-        <!--====== Main js ======-->
-        <script src="assets/js/main.js"></script>
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
 
 </body>
-<script>
-    function showhide() {
-        $('.portfolio-card').addClass('hidden');
-        var a = document.getElementById("virtual");
-        a.classList.toggle('hidden');
-    }
 
-
-    function showinstitutional() {
-
-        $('.portfolio-card').addClass('hidden');
-        var b = document.getElementById("institutional");
-        b.classList.toggle('hidden');
-    }
-
-    function showsmart() {
-
-        $('.portfolio-card').addClass('hidden');
-        var c = document.getElementById("smart");
-        c.classList.toggle('hidden');
-    }
-
-    function showstudent() {
-
-        $('.portfolio-card').addClass('hidden');
-        var d = document.getElementById("student");
-        d.classList.toggle('hidden');
-    }
-
-    function showinternational() {
-
-        $('.portfolio-card').addClass('hidden');
-        var e = document.getElementById("International");
-        e.classList.toggle('hidden');
-    }
-</script>
+<script src="main.js"></script>
 
 </html>

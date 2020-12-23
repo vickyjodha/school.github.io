@@ -284,7 +284,31 @@ h3 {
     background: hsl(243, 80%, 62%);
     transition: transform .25s ease-in;
 }
+ div.slide-up {
+     height: 200px;
+     overflow: hidden;
+ }
 
+ div.slide-up .newsList {
+     animation: 9s slide-up infinite;
+     margin-top: 0%;
+ }
+
+ @keyframes slide-up {
+     from {
+         margin-top: 100%;
+         height: 300%;
+     }
+
+     to {
+         margin-top: 0%;
+         height: 100%;
+     }
+ }
+
+ .img-about {
+     margin-top: -10%;
+ }
 .snapLeftBtn:hover::before {
     transform: translateX(0);
 }

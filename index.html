@@ -51,35 +51,8 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main.css">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style style="text/css">
-        div.slide-up {
-            height: 200px;
-            overflow: hidden;
-        }
-
-        div.slide-up .newsList {
-            animation: 9s slide-up infinite;
-            margin-top: 0%;
-        }
-
-        @keyframes slide-up {
-            from {
-                margin-top: 100%;
-                height: 300%;
-            }
-
-            to {
-                margin-top: 0%;
-                height: 100%;
-            }
-        }
-
-        .img-about {
-            margin-top: -10%;
-        }
     </style>
 </head>
 
@@ -92,7 +65,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand pl-4" href="#">
-                                <img src="assets/images/logo-1.png" style="height:4.375em;" alt="Logo">
+                                <img src="assets/images/logo-1.png" style="height:70px" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false"
@@ -128,9 +101,7 @@
                                 </ul>
                             </div>
 
-                            <!-- <div class="navbar-btn d-none mt-15 d-lg-inline-block">
-                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
-                            </div> -->
+
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
@@ -211,39 +182,48 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row align-items-start">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-12">
+                                    <h3 class="section-heading text-lg-left text-md-left text-center ">Our
+                                        Vision
+                                    </h3>
+                                </div>
                                 <div class="col-lg-4 col-4 text-center about-img">
                                     <div class="row mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration=".8s"
                                         data-wow-delay="0s">
-                                        <h3 class="mb-4 section-heading">Our Vision</h3>
+                                        <!-- <h3 class="mb-4 section-heading">Our </h3> -->
                                         <img src="https://e-edport.com/assets/images/vision.png" height="120px"
                                             alt="Girl in a jacket" class="float-right justify-content-end">
                                     </div>
                                 </div>
-                                <div class="col-lg-5 col-8 order-lg-1 wow fadeInRight" data-wow-duration=".8s"
+                                <div class="col-lg-8 col-8 pl-0 order-lg-1 wow fadeInRight" data-wow-duration=".8s"
                                     data-wow-delay="0s">
                                     <p class="mb-1" style="line-height:1.7">
                                         Our Vision is to integrate information with innovation to emancipate the
                                         education sector. We aspire
                                     </p>
-                                    <a href="about.html" class="snapLeftBtn"><span>Read more</span>
+                                    <a href="about.html" class="snapLeftBtn mt-md-4 mt-lg-4 mt-2"><span>Read more</span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="row justify-content-end mt-3">
-                                <div class="col-lg-5 col-8 offset-md-4 wow fadeInLeft" data-wow-duration=".8s"
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-md-12 col-12">
+                                    <h3 class="section-heading text-lg-right text-md-right text-center pr-md-5">Our
+                                        Mission
+                                    </h3>
+                                </div>
+                                <div class="col-lg-8 col-8 pl-0  wow fadeInLeft" data-wow-duration=".8s"
                                     data-wow-delay="0.1s">
-
                                     <p class="mb-1" style="line-height:1.7">e-EdPort is founded with a Mission to
                                         collaborating technology and skills to promote all round development of
                                         .</p>
-                                    <a href="about.html" class="snapLeftBtn"><span>Read more</span>
+                                    <a href="about.html" class="snapLeftBtn mt-md-4 mt-lg-4 mt-2"><span>Read more</span>
                                     </a>
                                 </div>
-                                <div class="col-lg-3 col-4 text-center about-img">
+                                <div class="col-lg-4 col-4 text-center about-img">
                                     <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s"
                                         data-wow-delay="0.1s">
-                                        <h3 class="mb-4 section-heading">Our Mission</h3>
+
                                         <img src="https://e-edport.com/assets/images/mission.png" height="120px"
                                             alt="Girl in a jacket">
                                     </div>
@@ -647,42 +627,7 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-<script>
-    function showhide() {
-        $('.portfolio-card').addClass('hidden');
-        var a = document.getElementById("virtual");
-        a.classList.toggle('hidden');
-    }
 
-
-    function showinstitutional() {
-
-        $('.portfolio-card').addClass('hidden');
-        var b = document.getElementById("institutional");
-        b.classList.toggle('hidden');
-    }
-
-    function showsmart() {
-
-        $('.portfolio-card').addClass('hidden');
-        var c = document.getElementById("smart");
-        c.classList.toggle('hidden');
-    }
-
-    function showstudent() {
-
-        $('.portfolio-card').addClass('hidden');
-        var d = document.getElementById("student");
-        d.classList.toggle('hidden');
-    }
-
-    function showinternational() {
-
-        $('.portfolio-card').addClass('hidden');
-        var e = document.getElementById("International");
-        e.classList.toggle('hidden');
-    }
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
 <!-- <script src="rellax.js"></script> -->
 
