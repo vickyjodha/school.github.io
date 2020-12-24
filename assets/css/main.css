@@ -155,7 +155,7 @@ a {
     }
 
     .navbar-brand img {
-        height: 5vh !important;
+        height: 6vh !important;
     }
 
     #parents .carousel-inner {
@@ -166,7 +166,7 @@ a {
         margin-bottom: 25px !important;
     }
 
-    .carousel-indicators {
+   #parents .carousel-indicators {
         top: 100% !important;
     }
 
@@ -242,14 +242,27 @@ a {
     /* opacity: .5; */
     transition: opacity .6s ease;
 }
-
-.carousel-indicators {
+#homeSlider .carousel-indicators{
+    display: unset ;
+    left: unset ;
+    margin-right: 5%;
+     margin-left: 0%;
+     align-items: center;
+     top: 33%;
+    
+}
+#homeSlider .carousel-indicators li{
+ width: 14px ;
+     height: 14px ;
+     border-radius: 50%;
+}
+#parents .carousel-indicators {
     top: 120%;
     /* color: red; */
     /* background-color: red !important; */
 }
 
-.carousel-indicators li {
+#parents .carousel-indicators li {
     /* color: red; */
     background-color: red;
     width: 14px;
