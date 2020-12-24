@@ -413,3 +413,14 @@ a {
     transition-duration: .85s;
     transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1)
 }
+ .dropdown-item:hover {
+     color: white !important;
+     text-decoration: none !important;
+     background-color: #484f59 !important;
+ }
+
+ .dropdown-item.active {
+     color: #161f33 !important;
+     text-decoration: none !important;
+     background-color: white !important;
+ }
