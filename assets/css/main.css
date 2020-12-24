@@ -139,6 +139,10 @@ a {
     .embed-responsive {
         margin-bottom: 25px !important;
     }
+    .navbar-area .container-fluid{
+        padding-left: 56px !important;
+        padding-right: 51px !important;
+    }
 .heading-section img{
     height: 330px !important;
 }
