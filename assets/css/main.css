@@ -429,3 +429,6 @@ a {
  .heading-section img {
      height: 440px;
  }
+  .dropdown-item {
+      margin-right: 5px;
+  }

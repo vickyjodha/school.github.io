@@ -22,9 +22,9 @@ $(function() {
     
      //===== close navbar-collapse when a  clicked
     
-    $(".navbar-nav a").on('click', function () {
-        $(".navbar-collapse").removeClass("show");
-    });
+    // $(".navbar-nav a").on('click', function () {
+    //     $(".navbar-collapse").removeClass("show");
+    // });
     
     //===== Mobile Menu
     
@@ -32,9 +32,9 @@ $(function() {
         $(this).toggleClass("active");
     });
     
-    $(".navbar-nav a").on('click', function() {
-        $(".navbar-toggler").removeClass('active');
-    });
+    // $(".navbar-nav a").on('click', function() {
+    //     $(".navbar-toggler").removeClass('active');
+    // });
     
     
     //===== Section Menu Active
@@ -46,7 +46,7 @@ $(function() {
 
     //     scrollLink.each(function() {
 
-    //       var sectionOffset = $(this.hash).offset().top - 73;
+    //       var sectionOffset = $(this.hash).offset().top;
 
     //       if ( sectionOffset <= scrollbarLocation ) {
     //         $(this).parent().addClass('active');
@@ -105,9 +105,14 @@ $(function() {
     //====== Magnific Popup
 
     $('.video-popup').magnificPopup({
-        type: 'iframe'
-        // other options
-    });
+        type: 'iframe',
+        // Changes iFrame to support Youtube state changes (so we can close the video when it ends)
+    iframe: {
+      markup: '<div class="container"><iframe width="100%" height="540" src="https://www.youtube.com/embed/GzBClfG5TWI?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+    },
+
+});  
+        
     
     
     //===== Slick
