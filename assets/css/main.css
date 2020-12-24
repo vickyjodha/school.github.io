@@ -139,7 +139,9 @@ a {
     .embed-responsive {
         margin-bottom: 25px !important;
     }
-
+.heading-section img{
+    height: 330px !important;
+}
     .mission-img {
         height: 200px !important;
     }
@@ -423,4 +425,7 @@ a {
      color: #161f33 !important;
      text-decoration: none !important;
      background-color: white !important;
+ }
+ .heading-section img {
+     height: 440px;
  }
