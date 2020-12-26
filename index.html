@@ -103,9 +103,33 @@
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="" href="education.html">Education</a>
+                                    <li class="nav-item dropdown">
+                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                            Education <span class="caret"></span>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right mr-2"
+                                            aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item " href="eduction/board.html">
+                                                Board Highlight
+                                            </a>
+                                            <a class="dropdown-item " href="eduction/course.html">
+                                                Course Highlight
+                                            </a>
+                                            <a class="dropdown-item " href="eduction/staff.html">
+                                                Our Staff
+                                            </a>
+                                            <a class="dropdown-item " href="eduction/syllabus.html">
+                                                Syllabus
+                                            </a>
+                                            <a class="dropdown-item " href="eduction/award.html">
+                                                Faculty award and recognition
+                                            </a>
+                                        </div>
                                     </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="" href="education.html">Education</a>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a class="" href="facilities.html">Facilities</a>
                                     </li>
@@ -238,8 +262,8 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-4 col-4 text-center about-img">
-                                    <div class="row mb-5 mb-lg-0 wow fadeInRight" data-wow-duration=".8s"
-                                        data-wow-delay="0.1s">
+                                    <div class="row mb-5 mb-lg-0 wow fadeInRight justify-content-center"
+                                        data-wow-duration=".8s" data-wow-delay="0.1s">
 
                                         <img src="https://e-edport.com/assets/images/mission.png" height="120px"
                                             alt="Girl in a jacket">
@@ -251,9 +275,10 @@
                 </div>
                 <div class="col-md-4 col-12 mt-5 justify-content-center">
                     <div class="card px-0">
-                        <div class="card-body px-0">
+                        <div class="card-header bg-white">
                             <h3 class="title text-center">News & Update</h3>
-                            <hr>
+                        </div>
+                        <div class="card-body p-0">
                             <marquee class="list-group list-group-flush " height="300px" direction="up"
                                 scrolldelay="200" onmouseover="stop();" onmouseout="start();">
                                 <li class="list-group-item newsList bg-light"> <span
@@ -306,9 +331,10 @@
                         </div>
                     </div>
                     <div class="card px-0 mt-5">
-                        <div class="card-body px-0">
+                        <div class="card-header bg-white">
                             <h3 class="title text-center">Upcoming Events</h3>
-                            <hr>
+                        </div>
+                        <div class="card-body p-0">
                             <marquee class="list-group list-group-flush " height="300px" direction="up"
                                 scrolldelay="200" onmouseover="stop();" onmouseout="start();">
                                 <li class="list-group-item newsList bg-light"> <span

@@ -117,6 +117,7 @@ a {
     border-bottom: 2px solid;
     border-top: 2px solid;
 }
+
 .message-img {
     border: 3px solid #03723b;
     /* box-shadow: 2px 8px 10px #ccc; */
@@ -134,18 +135,107 @@ a {
     }
 }
 
+:root {
+    --widthA: 100%;
+    --width: calc(var(--widthA) / 3);
+    --blue: #007bff;
+}
+
+.w-33 {
+    width: 32%;
+}
+
+@media(min-width:769px) {
+    .pl-auto {
+        padding-left: 28%;
+        padding-top: 2%;
+
+    }
+}
+
+  .boardHedaing {
+      margin-top: 7rem;
+  }
+
+  /* .boardHedaing .conatiner-fluid .row div {} */
+
+  .boardHedaing .conatiner-fluid .row div h2 {
+      background-color: #161f33;
+      color: white;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+
+  }
+
+
+
+  .round-color li {
+      display: block;
+      width: 50px;
+      height: 50px;
+      position: relative;
+  }
+
+  .round-color li a {
+      display: block;
+      position: relative;
+      z-index: 1;
+      height: 31px;
+      width: 31px;
+      cursor: pointer;
+      text-decoration: none;
+      background-image: url(https://saiinternational.edu.in/wp-content/themes/sis/images/home-icon-logo.jpg);
+      background-repeat: no-repeat;
+      object-fit: cover;
+      border-radius: 50%;
+  }
+.schoolImage {
+    margin-left: 46%;
+}
+.teacherAwardImage{
+    height: 160px;
+    width: 160px;
+}
+  #photoSlide .carousel-control-prev,
+  #photoSlide .carousel-control-next {
+      width: 5% !important;
+  }
 /* Mobile */
 @media (max-width:767.99px) {
+    .round-color li {
+        height: 32px !important;
+    }
+    .teacherAwardImage {
+        height: 100px;
+        width: 100px;
+    }
+.boardHedaing {
+    margin-top: 6rem;
+}
+
+    .schoolImage {
+        margin-left: 27% !important;
+    }
+
+    .pl-auto {
+        padding-top: 10%;
+        padding-left: 12%;
+
+    }
+
     .embed-responsive {
         margin-bottom: 25px !important;
     }
-    .navbar-area .container-fluid{
-        padding-left: 56px !important;
+
+    .navbar-area .container-fluid {
+        padding-left: 43px !important;
         padding-right: 51px !important;
     }
-.heading-section img{
-    height: 330px !important;
-}
+
+    .heading-section img {
+        height: 330px !important;
+    }
+
     .mission-img {
         height: 200px !important;
     }
@@ -166,7 +256,7 @@ a {
         margin-bottom: 25px !important;
     }
 
-   #parents .carousel-indicators {
+    #parents .carousel-indicators {
         top: 100% !important;
     }
 
@@ -242,20 +332,23 @@ a {
     /* opacity: .5; */
     transition: opacity .6s ease;
 }
-#homeSlider .carousel-indicators{
-    display: unset ;
-    left: unset ;
+
+#homeSlider .carousel-indicators {
+    display: unset;
+    left: unset;
     margin-right: 5%;
-     margin-left: 0%;
-     align-items: center;
-     top: 33%;
-    
+    margin-left: 0%;
+    align-items: center;
+    top: 33%;
+
 }
-#homeSlider .carousel-indicators li{
- width: 14px ;
-     height: 14px ;
-     border-radius: 50%;
+
+#homeSlider .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
 }
+
 #parents .carousel-indicators {
     top: 120%;
     /* color: red; */
@@ -432,20 +525,30 @@ a {
     transition-duration: .85s;
     transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1)
 }
- .dropdown-item:hover {
-     color: white !important;
-     text-decoration: none !important;
-     background-color: #484f59 !important;
- }
 
- .dropdown-item.active {
-     color: #161f33 !important;
-     text-decoration: none !important;
-     background-color: white !important;
- }
- .heading-section img {
-     height: 440px;
- }
-  .dropdown-item {
-      margin-right: 5px;
-  }
+.dropdown-item:hover {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #484f59 !important;
+}
+
+.dropdown-item.active {
+    color: #161f33 !important;
+    text-decoration: none !important;
+    background-color: white !important;
+}
+
+.heading-section img {
+    height: 440px;
+}
+
+.dropdown-item {
+    margin-right: 5px;
+}
+
+.round-color {
+    left: 3%;
+    top: 12%;
+    align-items: center;
+    position: absolute;
+}
