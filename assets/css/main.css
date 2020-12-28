@@ -209,7 +209,14 @@ a {
     .round-color li {
         height: 32px !important;
     }
+    #photo-slide-img .owl-stage-outer .owl-stage .owl-item {
+        padding-left: 0 !important;
 
+    }
+#photo-slide-img .owl-nav.disabled .owl-prev,
+#photo-slide-img .owl-nav.disabled .owl-next {
+    top: 22% !important;
+}
     .teacherAwardImage {
         height: 100px;
         width: 100px;
