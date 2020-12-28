@@ -153,65 +153,71 @@ a {
     }
 }
 
-  .boardHedaing {
-      margin-top: 7rem;
-  }
+.boardHedaing {
+    margin-top: 7rem;
+}
 
-  /* .boardHedaing .conatiner-fluid .row div {} */
+/* .boardHedaing .conatiner-fluid .row div {} */
 
-  .boardHedaing .conatiner-fluid .row div h2 {
-      background-color: #161f33;
-      color: white;
-      border-top: 3px solid black;
-      border-bottom: 3px solid black;
+.boardHedaing .conatiner-fluid .row div h2 {
+    background-color: #161f33;
+    color: white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 
-  }
+}
 
 
 
-  .round-color li {
-      display: block;
-      width: 50px;
-      height: 50px;
-      position: relative;
-  }
+.round-color li {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
 
-  .round-color li a {
-      display: block;
-      position: relative;
-      z-index: 1;
-      height: 31px;
-      width: 31px;
-      cursor: pointer;
-      text-decoration: none;
-      background-image: url(https://saiinternational.edu.in/wp-content/themes/sis/images/home-icon-logo.jpg);
-      background-repeat: no-repeat;
-      object-fit: cover;
-      border-radius: 50%;
-  }
+.round-color li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: 31px;
+    width: 31px;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: url(https://saiinternational.edu.in/wp-content/themes/sis/images/home-icon-logo.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .schoolImage {
     margin-left: 46%;
 }
-.teacherAwardImage{
+
+.teacherAwardImage {
     height: 160px;
     width: 160px;
 }
-  #photoSlide .carousel-control-prev,
-  #photoSlide .carousel-control-next {
-      width: 5% !important;
-  }
+
+#photoSlide .carousel-control-prev,
+#photoSlide .carousel-control-next {
+    width: 5% !important;
+}
+
 /* Mobile */
 @media (max-width:767.99px) {
     .round-color li {
         height: 32px !important;
     }
+
     .teacherAwardImage {
         height: 100px;
         width: 100px;
     }
-.boardHedaing {
-    margin-top: 6rem;
-}
+
+    .boardHedaing {
+        margin-top: 6rem;
+    }
 
     .schoolImage {
         margin-left: 27% !important;
@@ -669,4 +675,31 @@ a {
     box-shadow: none !important;
     outline: 0;
     border: 0;
+}
+#photo-slide-img .owl-stage-outer .owl-stage .owl-item{
+    padding-left: 20px;
+
+}
+#photo-slide-img .owl-nav.disabled{
+    display: block !important;
+}
+#photo-slide-img .owl-nav.disabled .owl-prev{
+   top: 36%;
+   left: 3%;
+position: absolute;
+   
+}
+#photo-slide-img .owl-nav.disabled .owl-prev span:hover,
+#photo-slide-img .owl-nav.disabled .owl-next span:hover{
+    opacity: 1;
+}
+#photo-slide-img .owl-nav.disabled .owl-prev span,
+#photo-slide-img .owl-nav.disabled .owl-next span {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+#photo-slide-img .owl-nav.disabled .owl-next{
+    position: absolute;
+    right: 3%;
+    top: 36%;
 }
