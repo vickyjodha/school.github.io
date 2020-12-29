@@ -567,7 +567,9 @@ a {
 }
 
 
-
+.heding-facilities {
+    border-bottom: 1px dashed black;
+}
 
 /* selide parent  */
 
