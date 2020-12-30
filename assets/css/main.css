@@ -365,7 +365,9 @@ a {
     top: 33%;
 
 }
-
+#homeSlider .carousel-inner .carousel-item  img{
+max-height: 667px;
+}
 #homeSlider .carousel-indicators li {
     width: 14px;
     height: 14px;
