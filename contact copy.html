@@ -13,66 +13,72 @@
     <title>School</title>
 
     <!--====== Favicon Icon ======-->
-    <!-- <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png"> -->
-    <link rel="shortcut icon" href="../assets/images/logo-1.png" type="image/png">
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png"> -->
+    <link rel="shortcut icon" href="assets/images/logo-1.png" type="image/png">
 
     <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
-
     <!--====== Line Icons css ======-->
-    <link rel="stylesheet" href="../assets/css/LineIcons.css">
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
 
     <!--====== Magnific Popup css ======-->
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
     <!--====== Slick css ======-->
-    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
 
     <!--====== Animate css ======-->
-    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
     <!--====== Default css ======-->
-    <link rel="stylesheet" href="../assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/default.css">
 
     <!--====== Style css ======-->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../owl.carousel.css">
-    <link rel="stylesheet" href="../owl.theme.default.css">
-    <script src="../owl.carousel.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        @media (max-width:767.99px) {
-            .round-color {
-                top: 31% !important;
-            }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+
+            text-align: center;
+            font-family: arial;
+
         }
 
-        .round-color {
-            left: 40%;
-            top: 28%;
+        .hidden {
+            display: none;
+        }
+
+        a {
+            text-decoration: none !important;
         }
     </style>
+
 </head>
 
 <body>
+
+
     <!--====== NAVBAR PART START ======-->
+
     <section class="header-area">
         <div class="navbar-area">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand pl-4" href="#">
-                                <img src="../assets/images/logo-1.png" alt="Logo">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo-1.png" style="height:70px;" alt="Logo">
                             </a>
+
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -84,147 +90,105 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="" href="../index.html">HOME</a>
-                                    </li>
-                                    <li class="nav-item dropdown  ">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            About Us <span class="caret"></span>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right mr-2"
-                                            aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item " href="../about/about.html">
-                                                Overview
-                                            </a>
-                                            <a class="dropdown-item " href="../about/mission.html">
-                                                Vision & Mission
-                                            </a>
-                                            <a class="dropdown-item " href="../about/director.html">
-                                                Director’s message
-                                            </a>
-                                            <a class="dropdown-item " href="../about/principal.html">
-                                                Principal’s message
-                                            </a>
-                                            <a class="dropdown-item " href="../about/safety.html">
-                                                Safety and Security
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Education <span class="caret"></span>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right mr-2"
-                                            aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item " href="../eduction/board.html">
-                                                Board Highlight
-                                            </a>
-                                            <a class="dropdown-item " href="../eduction/course.html">
-                                                Course Highlight
-                                            </a>
-                                            <a class="dropdown-item " href="../eduction/staff.html">
-                                                Our Staff
-                                            </a>
-                                            <a class="dropdown-item " href="../eduction/syllabus.html">
-                                                Syllabus
-                                            </a>
-                                            <a class="dropdown-item " href="../eduction/award.html">
-                                                Faculty award and recognition
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Infrastructure<span class="caret"></span>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right mr-2"
-                                            aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item " href="../Infrastructure/facilitie.html">
-                                                Facilities
-                                            </a>
-                                            <a class="dropdown-item " href="../Infrastructure/smartclass.html">
-                                                Smart Class
-                                            </a>
-                                            <a class="dropdown-item " href="../Infrastructure/juniorlabs.html">
-                                                Junior Labs
-                                            </a>
-                                            <a class="dropdown-item " href="../Infrastructure/seniorlabs.html">
-                                                Senior Labs
-                                            </a>
-                                            <a class="dropdown-item " href="../Infrastructure/library.html">
-                                                Library
-                                            </a>
-                                            <a class="dropdown-item " href="../Infrastructure/transport.html">
-                                                Transport
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Academics<span class="caret"></span>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right mr-2"
-                                            aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item " href="../academics/classroom.html">
-                                                Classroom
-                                            </a>
-                                            <a class="dropdown-item " href="../academics/houses.html">
-                                                Houses
-                                            </a>
-                                            <a class="dropdown-item " href="../academics/learning.html">
-                                                Experimental Learning
-                                            </a>
-                                            <a class="dropdown-item " href="../academics/council.html">
-                                                Student Council
-                                            </a>
-                                            <a class="dropdown-item " href="../academics/curriculum.html">
-                                                Enhanced curriculum
-                                            </a>
-                                            <a class="dropdown-item " href="../academics/result.html">
-                                                Our Result
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a id="navbarDropdown" class="nav-link dropdown-toggle " href="#" role="button"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                            Admission<span class="caret"></span>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right mr-2"
-                                            aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item " href="../admission/admission.html">
-                                                Admission Information
-                                            </a>
-                                            <a class="dropdown-item " href="../admission/withdrawal.html">
-                                                Withdrawals
-                                            </a>
-                                            <a class="dropdown-item " href="../admission/registration.html">
-                                                Registration Form
-                                            </a>
-                                            <a class="dropdown-item " href="../admission/feestructure.html">
-                                                Fee Structure
-                                            </a>
-                                        </div>
+                                        <a class="" href="index.html">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="" href="../contact.html">Contact Us</a>
+                                        <a class="" href="about.html">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="" href="education.html">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="" href="facilities.html">Facilities</a>
+                                    </li>
+                                    <li li class="nav-item">
+                                        <a class="page-scroll" href="aminities.html">Aminities</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="fees.html">Fee Structure</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="" href="contact.html">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
-                        </nav>
+
+                            <!-- <div class="navbar-btn d-none mt-15 d-lg-inline-block">
+                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
+                            </div> -->
+                        </nav> <!-- navbar -->
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+
+
     </section>
 
-    <section id="contact mt-5">
-        <div class="container mt-5">
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-6 mt-5">
+    <!--====== NAVBAR PART ENDS ======-->
+
+    <!--====== SAIDEBAR PART START ======-->
+
+    <div class="sidebar-right">
+        <div class="sidebar-close">
+            <a class="close" href="#close"><i style="font-weight:bolder;" class="lni-close"></i></a>
+        </div>
+        <div class="sidebar-content">
+            <div class="sidebar-logo text-center">
+                <a href="#">
+                    School
+                    <!-- <img src="assets/images/logo-1.png" alt="Logo"> -->
+                </a>
+            </div> <!-- logo -->
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div> <!-- menu -->
+            <div class="sidebar-social d-flex align-items-center justify-content-center">
+                <span>FOLLOW US ON</span>
+                <ul>
+                    <li><a target="_blank"
+                            href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i
+                                class="lni-facebook-filled"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i
+                                class="lni-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i
+                                class="lni-youtube"></i></a></li>
+
+
+                </ul>
+            </div> <!-- sidebar social -->
+        </div> <!-- content -->
+    </div>
+    <div class="overlay-right"></div>
+
+    <!--====== SAIDEBAR PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--====== CONTACT BOX PART START ======-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
                     <div class="section-title text-center pb-20">
                         <h3 class="title">Contact</h3>
                         <p class="text">For more information, contact us through the following mediums</p>
@@ -347,8 +311,11 @@
         </div>
     </section>
 
-    <footer id="footer" class="footer-area bg-light">
-        <hr>
+    <!--====== CONTACT BOX PART ENDS ======-->
+
+    <!--====== FOOTER FOUR PART START ======-->
+
+    <footer id="footer" class="footer-area">
         <div class="footer-widget">
             <div class="container">
                 <div class="row">
@@ -356,11 +323,32 @@
                         <div class="footer-link">
                             <h6 class="footer-title">Company</h6>
                             <ul>
-                                <li><a href="../about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <!-- <li><a href="#pricing">Pricing</a></li> -->
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
                             </ul>
-                        </div>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Solutions</h6>
+                            <ul>
+                                <li><a href="#">Virtual Classroom App</a></li>
+                                <li><a href="#">Self Learning App</a></li>
+                                <li><a href="#">Institutional Branding</a></li>
+                                <li><a href="#">Smart Teacher Training</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Plan</h6>
+                            <ul>
+                                <li><a href="#basic">Basic</a></li>
+                                <li><a href="#standard">Standard</a></li>
+                                <li><a href="#premium">Premium</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
@@ -373,8 +361,8 @@
                         </div> <!-- footer link -->
                     </div>
                 </div> <!-- row -->
-            </div>
-        </div>
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
 
         <div class="footer-copyright">
             <div class="container">
@@ -382,13 +370,13 @@
                     <div class="col-lg-5">
                         <div class="copyright text-center text-lg-left mt-10">
                             <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372"
-                                    rel="nofollow" href="../index.html"> Montbit Technologies.</a></p>
+                                    rel="nofollow" href="index.html"> Montbit Technologies.</a></p>
                         </div> <!--  copyright -->
                     </div>
                     <div class="col-lg-2">
                         <div class="footer-logo text-center mt-10">
-                            <a href="../index.html"><img style="height: 100px !important;"
-                                    src="../../assets/images/logo-1.png" alt="Logo"></a>
+                            <a href="index.html"><img style="height: 100px !important;" src="assets/images/logo-1.png"
+                                    alt="Logo"></a>
                         </div> <!-- footer logo -->
                     </div>
                     <div class="col-lg-5">
@@ -404,7 +392,7 @@
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
-        </div>
+        </div> <!-- footer copyright -->
     </footer>
 
     <!--====== FOOTER FOUR PART ENDS ======-->
@@ -412,42 +400,59 @@
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up" style="color:white"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+
+
+    <!--====== PART ENDS ======-->
+
+
+
+
+
+
+
+
+
+
     <!--====== jquery js ======-->
-    <script src="../assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script src="../assets/js/vendor/jquery-1.12.4.min.js"></script> -->
+    <!-- <script src="assets/js/vendor/jquery-1.12.4.min.js"></script> -->
 
     <!--====== Bootstrap js ======-->
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 
     <!--====== Slick js ======-->
-    <script src="../assets/js/slick.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
 
     <!--====== Isotope js ======-->
-    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
 
     <!--====== Images Loaded js ======-->
-    <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 
     <!--====== Magnific Popup js ======-->
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
     <!--====== Scrolling js ======-->
-    <script src="../assets/js/scrolling-nav.js"></script>
-    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
 
     <!--====== Ajax Contact js ======-->
-    <script src="../assets/js/ajax-contact.js"></script>
+    <script src="assets/js/ajax-contact.js"></script>
 
     <!--====== wow js ======-->
-    <script src="../assets/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
 
     <!--====== Main js ======-->
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
-<script src="../owl.carousel.js"></script>
-<script src="../custom.js"></script>
+
 
 </html>
