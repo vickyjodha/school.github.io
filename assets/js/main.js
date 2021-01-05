@@ -317,9 +317,16 @@ $(function() {
     
     
     
-    
-    
-    
-    
-    
 });
+
+ const currentLoction = location.href;
+    const menuItem = document.querySelectorAll('.nav-item');
+    // const menuItem = document.querySelectorAll('li');
+    const menuLength = menuItem.length
+    for (let i = 0; i < menuLength; i++) {
+        if (menuItem[i].href === currentLoction) {
+            menuItem[i].className = "acvite"
+        }
+        console.log(menuLength)
+    }
+    console.log(currentLoction)
