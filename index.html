@@ -51,6 +51,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* .test::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 40%;
+            top: 0;
+            bottom: 0;
+            background: #ca1111;
+            -webkit-transform: skewX(30deg);
+            -moz-transform: skewX(30deg);
+            -ms-transform: skewX(30deg);
+            -o-transform: skewX(30deg);
+            transform: skewX(30deg);
+            z-index: -1;
+            border-radius: 0 0 0px 10px;
+        } */
+    </style>
 </head>
 
 <body>
@@ -265,52 +283,48 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 col-12">
                                     <div class="section-title text-center pb-20 ">
-                                        <img src="assets/images/about.jpg" class="img-about d-none"
-                                            alt="Girl in a jacket" class="float-right justify-content-end">
+                                        <img src="assets/images/about.jpg" class="img-about d-none" alt="school"
+                                            class="float-right justify-content-end">
                                         <h3 class="title mt-2">About Us</h3>
                                         <div class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing
                                             elit. Architecto, mollitia.</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row ">
-                                <div class="col-md-12 col-12">
-                                    <h4 class="h3 pl-3 py-2 bg-light  heding-facilities">Vision</h4>
-                                    <img src="https://e-edport.com/assets/images/vision.png" alt="Girl in a jacket"
-                                        class="mission-img w-50 mr-md-3 mr-lg-3 mr-2 mb-lg-2 mb-md-2 float-left">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Exercitationem fugiat voluptate eius dolorem provident accusantium hic. Harum
-                                    minima
-                                    debitis
-                                    nihil laboriosam optio unde aliquam. Veritatis pariatur molestiae, earum tenetur
-                                    velit natus
-                                    harum aut esse voluptate vitae amet ducimus iste. Eius et dolorum maxime
-                                    voluptatum
-                                    qui
-                                    nihil voluptatibus placeat, beatae velit!
-                                    <div class="d-block text-center">
+                            <div class="row d-flex  ">
+                                <h4
+                                    class="h3 pl-3 col-md-12 col-12 text-center text-lg-left my-3 text-md-left  py-2 bg-light  heding-facilities">
+                                    Vision</h4>
+                                <div class="col-md-6 col-12">
+                                    <img src="assets/images/vision.png" alt="school" class="mission-img w-75  ">
+                                </div>
+                                <div class="col-md-6 col-12 text-justify">
+                                    Prepare each student with the character and skills necessary to thrive in today’s
+                                    world.
+                                    <div class="d-block text-center mt-2">
                                         <a href="./about/about.html" class="snapLeftBtn "><span>Read
                                                 more</span></a>
                                     </div>
 
                                 </div>
-                                <div class="col-md-12 col-12 mt-3">
-                                    <h4 class="h3 pr-3 py-2 bg-light text-right heding-facilities">mission</h4>
-                                    <img src="https://e-edport.com/assets/images/mission.png" alt="Girl in a jacket"
-                                        class="mission-img w-50 mr-md-3 mr-lg-3 mr-2 mb-lg-2 mb-md-2 float-right ">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Exercitationem fugiat voluptate eius dolorem provident accusantium hic. Harum minima
-                                    debitis
-                                    nihil laboriosam optio unde aliquam. Veritatis pariatur molestiae, earum tenetur
-                                    velit natus
-                                    harum aut esse voluptate vitae amet ducimus iste. Eius et dolorum maxime voluptatum
-                                    qui
-                                    nihil voluptatibus placeat, beatae velit!
-                                    <div class="d-block text-center">
+                                <h4
+                                    class=" col-md-12 col-12 h3 pr-3 my-3 py-2 bg-light text-center text-lg-right text-md-right heding-facilities">
+                                    mission
+                                </h4>
+                                <div class="col-md-6 col-12 order-lg-2 order-md-2">
+                                    <img src="assets/images/mission.png" alt="school"
+                                        class="mission-img w-75 mr-md-3 mr-lg-3 mr-2 mb-lg-2 mb-md-2 float-right ">
+                                </div>
+                                <div class="col-md-6 col-12 mt-3 text-justify  order-lg-1 order-md-1">
+                                    Empower the academic and social excellence of every student by helping them grow as
+                                    lifelong learners, and as
+                                    collaborative contributors to our community and the world.
+                                    <div class="d-block text-center mt-2">
                                         <a href="./about/about.html" class="snapLeftBtn "><span>Read
                                                 more</span></a>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -440,10 +454,10 @@
     <!--====== Deliverables PART START ======-->
     <section id="about" class="contact-area">
         <div class="container-fluid">
-            <h2 class="text-center title mb-3">OUR FEATURES</h2>
-            <div class="row m-auto">
+            <h2 class="text-center title mb-3 main-color">OUR FEATURES</h2>
+            <div class="row m-auto" id="videolink">
 
-                <div class="col-md-4 ">
+                <!-- <div class="col-md-4 ">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item w-100 h-100" width="420" height="315"
                             src='https://www.youtube.com/watch?v=l2Fjf7BzeWE' allowfullscreen frameborder="0"></iframe>
@@ -457,107 +471,61 @@
                 </div>
                 <div class="col-md-4">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/zpOULjyy-n8?rel=0'
-                            allowfullscreen></iframe>
+                        <iframe class="rounded"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="" frameborder="0" height="315"
+                            src="https://www.youtube.com/embed/Dn8NQgCDHOk" width="100%"></iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
     <section class="testimonials-section pt-4">
         <div class="container-fluid px-lg-4 px-md-4">
-            <h2 class="text-center title mb-5 mt-3">What parents say about us?
-            </h2>
+            <h2 class="text-center title mb-5 mt-3">What parents say about us? </h2>
             <div class="row">
                 <div class="col-md-12">
                     <div class="testimonials">
                         <div id="carousel1" class="owl-carousel">
                             <div class="item">
                                 <div class="card text-center">
-                                    <img src='assets/images/header-5.jpg' class="card-img-top" />
+                                    <img src='assets/images/parent (1).jpg' class="card-img-top" />
                                     <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
+                                        <h5>Amit Kumar</br>
+                                            <span>parent </span>
                                         </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Aspernatur reiciendis adipisci magnam debitis. Distinctio harum omnis ea
-                                            quibusdam ullam natus.</p>
+                                        <p class="card-text">Fantastic school! The teachers are Professional, caring and
+                                            well organized. The admissions process was outstanding, they
+                                            really care and truly want the best for your child</p>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card text-center">
-                                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairFroBand&accessoriesType=Blank&hairColor=Red&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=PastelRed&graphicType=Skull&eyeType=Hearts&eyebrowType=Default&mouthType=Default&skinColor=Light'
-                                        class="card-img-top" />
+                                    <img src='assets/images/parent (2).jpg' class="card-img-top" />
                                     <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
+                                        <h5>vikram singh</br>
+                                            <span>parent </span>
                                         </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Quo, dolores debitis. Asperiores odit optio totam illo hic natus ad
-                                            voluptatum.</p>
+                                        <p class="card-text">My Daughter is always happy whenever it is her class time.
+                                            I attribute this to the exemplary teaching and community feel
+                                            of the school. A great and caring school.</p>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card text-center">
-                                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Round&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=PastelRed&graphicType=Skull&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
-                                        class="card-img-top" />
+                                    <img src='assets/images/parent (3).jpg' class="card-img-top" />
                                     <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
+                                        <h5>Aman Rai</br>
+                                            <span>parent </span>
                                         </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                                            alias consequuntur id, ea repellendus distinctio? Commodi vero eveniet ab
-                                            voluptate.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="card text-center">
-                                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=WinterHat2&accessoriesType=Prescription01&hatColor=Blue01&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
-                                        class="card-img-top" />
-                                    <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
-                                        </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Aspernatur reiciendis adipisci magnam debitis. Distinctio harum omnis ea
-                                            quibusdam ullam natus.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="card text-center">
-                                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairFroBand&accessoriesType=Blank&hairColor=Red&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=PastelRed&graphicType=Skull&eyeType=Hearts&eyebrowType=Default&mouthType=Default&skinColor=Light'
-                                        class="card-img-top" />
-                                    <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
-                                        </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Quo, dolores debitis. Asperiores odit optio totam illo hic natus ad
-                                            voluptatum.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="card text-center">
-                                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Round&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=PastelRed&graphicType=Skull&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
-                                        class="card-img-top" />
-                                    <div class="card-body">
-                                        <h5>Name</br>
-                                            <span>Mother </span>
-                                        </h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                                            alias consequuntur id, ea repellendus distinctio? Commodi vero eveniet ab
-                                            voluptate.</p>
+                                        <p class="card-text">This school has helped me in raising my children. The
+                                            teachers are really good and dedicated, I will always be grateful
+                                            to this wonderful school.</p>
 
                                     </div>
                                 </div>
@@ -574,7 +542,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>Teaching Your Child Some Good Manners</h2>
+                    <h2>Challenge yourself to be the best you can be</h2>
                     <p class="mb-0 text-white">A small river named Duden flows by their place and supplies it with the
                         necessary
                         regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your
@@ -599,7 +567,8 @@
                         <img src="https://technext.github.io/kiddos/images/bg_3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
                                 of the card's
                                 content.</p>
                             <a href="#" class="circleScaleBtn mt-1"><span>Click here</span> </a>
@@ -611,7 +580,8 @@
                         <img src="https://technext.github.io/kiddos/images/bg_3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
                                 of the card's
                                 content.</p>
                             <a href="#" class="circleScaleBtn mt-1"><span>Click here</span></a>
@@ -623,7 +593,8 @@
                         <img src="https://technext.github.io/kiddos/images/bg_3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
                                 of the card's
                                 content.</p>
                             <a href="#" class="circleScaleBtn mt-1"><span>Click here</span> </a>
@@ -636,85 +607,101 @@
     </section>
 
 
-    <footer id="footer" class="footer-area bg-light">
-        <hr>
+    <footer id="footer" class="footer-area bg-light mt-5">
+
+        <div class="row">
+            <div class="col-md-12 col-12 ">
+                <div class="social-link">
+                    <ul class="social text-center  mt-2">
+                        <li><a target="_blank"
+                                href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i
+                                    class="lni-facebook-filled"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i
+                                    class="lni-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i
+                                    class="lni-instagram-original"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
         <div class="footer-widget">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Company</h6>
+                    <div class="col-md-5 col-12 mx-auto order-lg-1 order-md-1 order-2">
+                        <div class="media align-items-center">
+                            <img class="align-self-start mr-3" height="90px" width="90px"
+                                src="../assets/images/logo-1.png" alt="Generic placeholder image">
+                            <div class="media-body text-justify">
+                                <h3 class="mt-0 main-color">Delhi Public School</h3>
+                                <h5 class="ml-5 main-color">Jaipur</h5>
+                                <p class="main-color">A Day Cum Residential School</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12  mb-3 mb-md-0 mb-lg-0 order-lg-2 order-md-2 order-1">
+                        <div class="footer-link mt-0 ">
+                            <h3 class=" main-color">Quick Links</h3>
                             <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <!-- <li><a href="#pricing">Pricing</a></li> -->
+                                <li>
+                                    <a href="../admission/registration.html" class="text-secondary"
+                                        rel="noopener noreferrer">Registration Form</a>
+                                </li>
+                                <li>
+                                    <a href="../eduction/board.html" class="text-secondary"
+                                        rel="noopener noreferrer">Course
+                                        Highlight</a>
+                                </li>
+                                <li>
+                                    <a href="../contact.html" class="text-secondary" rel="noopener noreferrer">Contact
+                                        Us</a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Solutions</h6>
-                            <ul>
-                                <li><a href="#">Virtual Classroom App</a></li>
-                                <li><a href="#">Self Learning App</a></li>
-                                <li><a href="#">Institutional Branding</a></li>
-                                <li><a href="#">Smart Teacher Training</a></li>
-                            </ul>
-                        </div> \
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Plan</h6>
-                            <ul>
-                                <li><a href="#basic">Basic</a></li>
-                                <li><a href="#standard">Standard</a></li>
-                                <li><a href="#premium">Premium</a></li>
-                            </ul>
-                        </div> 
-                    </div> -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Help & Support</h6>
-                            <ul>
-                                <li><a href="#">Support Center</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
+                    <div class="col-md-4 col-12 mx-auto mt-3 mt-md-0  order-3">
+                        <div class="footer-link mt-0">
+                            <h3 class="main-color mb-2">Contact Us</h3>
+                            <div class="contact">
+                                <p>Delhi Public School, Jaipur, Ajmer Road Branch NH-8, Jaipur Ajmer Highway, Jaipur Pin
+                                    code – 302026
+                                </p>
+                                <p>Phone : +91-829-056-5656
+                                    <br>For Admission Enquiry : +91-9828982987, +91-9680006938, +91- 9116405333
+                                    <br>E-mail : <a href="mailto: info@dpsjaipur.com"
+                                        class="text-dark">info@dpsjaipur.com</a>,
+                                    <a class="text-dark"
+                                        href="mailto: admission@dpsjaipur.com">admission@dpsjaipur.com</a>
+                                    <br>
+                                    <a class="text-dark mt-3 " href="https://www.freecounterstat.com"
+                                        title="DPS Jaipur">Visitor Counter
+                                        -
+                                        <span class="hitCounter d-inline p-2 rounded" target="_blank"
+                                            data-name="83a861d120b231bca94a70287a7660f5|5|page|1|#ea5050|#ffffff|small|s-hit">
+                                            Counter</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-12 px-5 footer-bg-color py-3">
+                <p class="float-left text-white d-inline-block">© Copyright <span class="year"></span> , All Rights
+                    Reserved
+                    |<a rel="
+                        nofollow" href="index.html"><strong class="text-white ml-1">DPS Jaipur</strong> </a>
+                </p>
+                <p class="float-right text-white ">Power By:- eEdPort
+                </p>
             </div>
         </div>
 
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="copyright text-center text-lg-left mt-10">
-                            <p class="text">© Copyright 2020, All Rights Reserved |<a style="color: #253372"
-                                    rel="nofollow" href="index.html"> Montbit Technologies.</a></p>
-                        </div> <!--  copyright -->
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="footer-logo text-center mt-10">
-                            <a href="index.html"><img style="height: 100px !important;" src="assets/images/logo-1.png"
-                                    alt="Logo"></a>
-                        </div> <!-- footer logo -->
-                    </div>
-                    <div class="col-lg-5">
-                        <ul class="social text-center text-lg-right mt-10">
-                            <li><a target="_blank"
-                                    href="https://www.facebook.com/eEdPort/?ref=aymt_homepage_panel&eid=ARCBqzK2__TNHwk7BNW0sZ_oWFM0IvHmdY-FDdEfmU53ssgLiCXbgwFPlB9YkVl9yHDyQSyJrafLcVi-"><i
-                                        class="lni-facebook-filled"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCy76UlnIMTWXk_aN4ZnmDdA"><i
-                                        class="lni-youtube"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/e_edport/?hl=en"><i
-                                        class="lni-instagram-original"></i></a></li>
-                        </ul> <!-- social -->
-                    </div>
-                </div>
-            </div>
-        </div>
     </footer>
 
     <!--====== FOOTER FOUR PART ENDS ======-->
@@ -757,41 +744,11 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
 
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
-<script src="assets/js/owl.carousel.js"></script>
-<script src="assets/js/custom.js"></script>
-<script>
-    $(document).ready(function () {
-        $.getJSON("test.json", function (data) {
-            var video_link = '';
-            $.each(data, function (key, value) {
-                video_link += ' <div class="col-md-4 ">';
-                video_link += ' <div class="embed-responsive embed-responsive-16by9">'
-                video_link += '   <iframe class="embed-responsive-item" src="' + value.video + '"    allowfullscreen></iframe>'
-                video_link += ' </div>  </div>';
 
-            })
-            $('#videolink').append(video_link);
-        });
-    });
-</script>
-<script>
-    // const currentLoction = location.href;
-    // const menuItem = document.querySelectorAll('li');
-    // const menuItem = document.querySelectorAll('li');
-    // const menuLength = menuItem.length
-    // for (let i = 0; i < menuLength; i++) {
-    //     if (menuItem[i].href === currentLoction) {
-    //         menuItem[i].className = "acvite"
-
-    //     }
-    // }
-
-    var url = data.url + "&output=embed";
-    window.location.replace(url);
-</script>
 
 </html>

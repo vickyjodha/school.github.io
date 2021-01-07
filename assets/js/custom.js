@@ -214,3 +214,47 @@ $('.teacher-slide').owlCarousel({
         }
     }
 })
+
+
+////// counter 
+document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() + "'><\/script>");
+
+
+
+/// vidoe link 
+$(document).ready(function () {
+        $.getJSON("../test.json", function (data) {
+            var video_link = '';
+            $.each(data, function (key, value) {
+                video_link += ' <div class="col-md-4 ">';
+                video_link += ' <div class="embed-responsive embed-responsive-16by9">'
+                video_link += '   <iframe class="embed-responsive-item rounded" src="' + value.video + '"    allowfullscreen></iframe>'
+                video_link += ' </div>  </div>';
+
+            })
+            $('#videolink').append(video_link);
+        });
+    });
+
+
+
+    // year 
+      var date = new Date().getFullYear();
+    $(".year").append(date);
+
+
+    // acive link code 
+
+      // const currentLoction = location.href;
+    // const menuItem = document.querySelectorAll('li');
+    // const menuItem = document.querySelectorAll('li');
+    // const menuLength = menuItem.length
+    // for (let i = 0; i < menuLength; i++) {
+    //     if (menuItem[i].href === currentLoction) {
+    //         menuItem[i].className = "acvite"
+
+    //     }
+    // }
+
+    // var url = data.url + "&output=embed";
+    // window.location.replace(url);
