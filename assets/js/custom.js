@@ -223,7 +223,7 @@ document.write("<script type='text/javascript' src='https://visitorshitcounter.c
 
 /// vidoe link 
 $(document).ready(function () {
-        $.getJSON("../test.json", function (data) {
+        $.getJSON("test.json", function (data) {
             var video_link = '';
             $.each(data, function (key, value) {
                 video_link += ' <div class="col-md-4 ">';
