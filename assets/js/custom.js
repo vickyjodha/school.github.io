@@ -231,7 +231,7 @@ $(document).ready(function () {
                 video_link += '   <iframe class="embed-responsive-item rounded" src="' + value.video + '"    allowfullscreen></iframe>'
                 video_link += ' </div>  </div>';
 
-            })
+            }) 
             $('#videolink').append(video_link);
         });
     });
