@@ -164,6 +164,21 @@ a {
     text-align: center;
 
 }
+.nav-item.dropdown.show::after {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 10px solid #FFF;
+    z-index: 10000;
+}
 .ews-info ul li strong,
 .addmision-info ul li strong {
     line-height: 0;

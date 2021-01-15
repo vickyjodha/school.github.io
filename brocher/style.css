@@ -1,0 +1,376 @@
+:root {
+    --color: #13133d;
+
+
+}
+
+.question {
+    font-size: 23px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+body {
+    color: var(--color) !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
+
+.heading {
+    padding-top: 20px;
+    background-color: var(--color);
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.heading img.w-100 {
+    width: 1100px;
+}
+
+#schoolImg {
+    height: 70px;
+    width: 70px;
+}
+
+.heading p {
+
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+}
+
+.school-quality {
+    background-color: #e9e6ce;
+    padding-left: 130px;
+}
+
+.school-quality h1 {
+    font-weight: 700;
+    font-size: 67px;
+    text-align: justify;
+
+}
+
+.school-quality h2 {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 50px;
+
+
+}
+
+
+.our-core {
+    padding-bottom: 33px;
+    color: var(--color);
+    font-weight: 800;
+    font-size: 3.8rem !important;
+    padding-top: 30px;
+
+}
+
+.our-mission {
+    border-right: 2px solid black;
+}
+
+p {
+    text-align: justify;
+}
+
+.student-img {
+    height: 1117px !important;
+    width: 325px;
+}
+
+.campus h1 {
+    color: var(--color);
+    font-weight: 700;
+    font-size: 3.9rem !important;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.card-reound {
+    /* margin-top: 133px; */
+    margin-right: auto;
+    margin-left: auto;
+    padding: 43px;
+    background-color: #595050e0;
+    width: 500px;
+    color: white;
+    border-radius: 30px;
+    border: 12px solid #fdd27a;
+}
+
+.card-reound img {
+    margin-left: 170px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.add-name {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 34px;
+}
+
+.last-number {
+    /* font-family: 'East Sea Dokdo', cursive; */
+    padding-right: 12px;
+}
+
+.last-email,
+.last-number {
+    font-size: 14px;
+
+}
+
+.admission {
+    text-align: right;  
+    width: 200px;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 4.5rem !important;
+    font-weight: 800;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-bottom: 43px;
+    float: left !important;
+    flex: 1 !important;
+}
+.flex-display ul li{
+    margin-bottom: 10px;
+}
+.class-heading{
+ /* transform: rotate(180deg);
+ writing-mode: vertical-rl;
+ text-orientation: mixed; */
+    flex: 1;
+    text-align: right;
+        padding-top: 38px;
+}
+.class-des>h1 {
+       font-size: 30px;
+       font-weight: 600;
+}
+.class-des > p{
+        font-size: 20px;
+         font-weight: 500;
+}
+* {
+    font-family: 'Segoe UI';
+    font-size: 10pt;
+}
+
+.circle {
+    position: relative;
+    /* border: 2px solid #999; */
+    border-radius: 100%;
+    width: 18px;
+    line-height: 11px;
+    height: 18px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    z-index: 2;
+    margin-left: 67px;
+}
+
+.circle:first-child {
+    margin-top: 0;
+}
+.circle:last-child::after {
+    padding-left: 1px;
+    background-color: black;
+    position: absolute;
+    border: 1px solid black;
+    width: 0;
+    /* padding: 0; */
+    height: 54px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    /* top: -54px; */
+    margin-left: -1px;
+}
+.circle:nth-of-type(2),
+.circle:nth-of-type(3) ,
+.circle:nth-of-type(4) {   
+    margin-top: 64px !important;
+}
+
+.circle:before
+ {
+    padding-left: 1px;
+    background-color: black;
+    position: absolute;
+    border: 1px solid black;
+    width: 0;
+    /* padding: 0; */
+    height: 91px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    top: -54px;
+    margin-left: -1px;
+}
+
+.circle:first-child::before {
+   top: -36px !important;
+}
+.class-des{
+    flex: 3;
+}
+.flex-display ul {
+        line-height: 1.3;
+    flex: 3;
+    float: right;
+    margin-top: 200px;
+    text-align: justify;
+    padding-right: 32px;
+}
+.flex-display{
+height: 729px;
+    display: flex;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.color-change {
+    height: 1153px;
+    margin-left: 0%;
+    padding-left: 0%;
+    width: 60%;
+    background-color: #f4cc7fe0;
+}
+
+.image-set {
+    background: url("img/Image\ 4.png") top left no-repeat,
+        url("img/Image\ 5.png") bottom left no-repeat;
+      height: 1153px;
+      background-size: 100% 577px;
+   
+}
+
+.img-2-set {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100% 500px;
+    background-image: url("img/Image\ 5.png");
+}
+
+.last-image {
+    padding-top: 120px;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 1120px 800px;
+    background-image: url("img/Image\ 6.png");
+}
+
+.campus p {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.bg-image {
+    height: 746px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 750px 817px;
+    background-image: url("img/Image\ 3.png");
+}
+
+.border-add {
+    margin-top: 43px;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(71, 68, 68);
+}
+
+.list li i {
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.bg-color {
+    padding-top: -30px !important;
+    background-color: #fdd27a;
+}
+
+.list {
+    float: right;
+}
+
+.list li {
+    display: block;
+}
+
+.stundet div img {
+    background-color: red;
+    background-size: 300px 100px;
+}
+
+.school-quality::before {
+    /* content:"" ; */
+    right: 113px;
+    /* position: absolute; */
+    width: 200px;
+    height: 250px;
+    background-color: var(--color);
+    clip-path: polygon(59% 20%, 100% 0, 100% 100%, 15% 100%, 13% 100%, 38% 85%, 37% 67%, 70% 52%);
+}
+
+.test {
+    margin-top: -222px;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+    background-color: var(--color);
+    clip-path: polygon(59% 20%, 100% 0, 100% 100%, 15% 100%, 13% 100%, 37% 89%, 36% 67%, 70% 52%);
+}
+
+.email i,
+.number i {
+    font-size: 20px;
+}
+
+.number {
+    padding-right: 30px;
+}
+
+.email {
+    padding-right: 151px;
+}
+
+.email,
+.number {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.heading-color {
+    float: right;
+    color: white;
+    padding-top: 0%;
+    margin-top: 0;
+    border-top: none;
+    /* height: 30px; */
+    width: 100%;
+    background-color: var(--color);
+}
