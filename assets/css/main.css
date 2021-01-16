@@ -231,9 +231,15 @@ a {
 }
 
 .schoolImage {
+    object-position: 0% 0%;
+    object-fit: cover;
     margin-left: 46%;
 }
-
+.list-group-item.active{
+    background-color:#4a6cb6 !important;
+    border-color: #4a6cb6 !important;
+    color: white !important;
+}
 .teacherAwardImage {
     height: 160px;
     width: 160px;
@@ -327,7 +333,9 @@ span.hitCounter.badge-done0{
     .heading-section img {
         height: 330px !important;
     }
-
+img.mission-img.w-75 {
+    transform: rotate(-7deg) !important;
+}
     .mission-img {
         height: 200px !important;
     }

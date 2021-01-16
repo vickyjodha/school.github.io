@@ -258,3 +258,15 @@ $(document).ready(function () {
 
     // var url = data.url + "&output=embed";
     // window.location.replace(url);
+
+
+    $("ul.navbar-nav li .dropdown-menu.dropdown-menu-right.mr-2 a").filter(function(){
+        return this.href == location.href.replace(/#.*/,"");
+    }).parents("li").addClass("active");
+  var dd=  $("ul.navbar-nav li a").filter(function(){
+        return this.href == location.href.replace(/#.*/,"");
+    }).addClass("active");
+// console.log(dd);
+$("ul.list-group.list-group-flush a").filter(function(){
+        return this.href == location.href.replace(/#.*/,"");
+    }).addClass("active");

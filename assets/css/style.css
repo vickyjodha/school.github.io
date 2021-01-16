@@ -3363,9 +3363,12 @@ p {
 }
 
 /*===== BACK TO TOP =====*/
+.back-to-top img{
+      transform: rotate(134deg);
+}
 .back-to-top {
   font-size: 20px;
-  color: #121212;
+  /* color: #121212; */
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -3373,7 +3376,7 @@ p {
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
-  background-color: #161f33;
+  /* background-color: #161f33; */
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3384,10 +3387,10 @@ p {
   display: none;
 }
 
-.back-to-top:hover {
+/* .back-to-top:hover {
   color: #121212;
   background-color: #253372;
-}
+} */
 
 .mainpageicon {
   padding: 15px;
