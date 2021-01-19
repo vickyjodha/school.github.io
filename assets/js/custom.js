@@ -167,6 +167,7 @@ $('.slide-home-page').owlCarousel({
     loop: true,
     center: true,
     margin: 0,
+    animateOut: 'fadeOut',
     responsiveClass: true,
     nav: false,
     autoplay: true,
